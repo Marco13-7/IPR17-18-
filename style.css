@@ -1,0 +1,84 @@
+h1{
+  color: white;
+  background: limegreen;
+  opacity: 0.9;
+  font-family: 'Fresca', sans-serif;
+  text-align: center;
+  text-shadow: 2px 1px grey;
+  margin-bottom: 0;
+  margin-top: 10;
+}
+h2{
+  color: white;
+}
+li{
+  color: grey;
+  font-family: 'Fresca', sans-serif;
+}
+p{
+  text-align: left;
+  margin-left: 120px;
+  font-family: 'Merriweather', serif;
+  color: white;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: red;
+  font-size: 40px;
+}
+table{
+  border-collapse: collapse;
+  width: 50%;
+}
+th{
+  height: 40px;
+}
+td{
+  height: 30px;
+  text-align: left;
+}
+tr:hover {background-color: darkblue}
+table, th ,td{
+  border: 3px solid white;
+  color: white;
+  font-family: 'Fresca', sans-serif;
+}
+body {
+    background-image: url("https://forums.macrumors.com/attachments/img_0253-jpg.702882/");
+    background-repeat: no-repeat;
+}
+img{
+  border-radius: 9px;
+  margin: 7px;
+}
+.menü{
+  color: white;
+  background: limegreen;
+  opacity: 0.9;
+  font-family: 'Fresca', sans-serif;
+  flex-direction: row;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0px;
+  padding: 0;
+}
+.bodyflex{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.flexi{
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+.textcenter{
+  text-align: center;
+}
